@@ -158,7 +158,10 @@ para realizar uma atualização do codigo para ver as alterações utilize o có
 
 
 cara é muito mais facíl utilizar o ctrl + alt + G para usar as atulizações que o proprio vscode disponibiliza
-por que assim não precisa usar esse tanto de código*/
+por que assim não precisa usar esse tanto de código
+
+se acontecer de ter arquivos conflitantes converse com a equipe para deixar de fato a que sera utilizada
+também não se esqueça de fazer um commit para o git entender que o problema foi resolvido*/
 
 
 
