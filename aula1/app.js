@@ -157,7 +157,8 @@ para realizar uma atualização do codigo para ver as alterações utilize o có
 * git pull apelidoDoRepositorio nomeDaBranch
 
 
-*/
+cara é muito mais facíl utilizar o ctrl + alt + G para usar as atulizações que o proprio vscode disponibiliza
+por que assim não precisa usar esse tanto de código*/
 
 
 
