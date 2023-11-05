@@ -105,7 +105,29 @@ se por algum acaso você quiser mudar o código principal use o comando:
 
 git add .
 
-para que todas as modificações que você fez sejam salvos no código do repositorio */
+para que todas as modificações que você fez sejam salvos no código do repositorio
+
+e sempre bom fazer commitis para falar o que foi alterado no códico
+
+use git log para saber o que foi comentado e o que foi modificado
+
+commitis devem ser não muito pequenos mas também nõa tão longos para não ficar muito confuso na hora de 
+entender o que foi alterado 
+
+lembre-se de nunca realisar um commit em um código com bugs somente com código funcional
+
+se você não saber para onde o código está indo use o comando git remote e ele vai te dar o apelido do
+repositório 
+
+se você for adicionar mudanças em um código que não é seu ou alguem tentar fazer mudanças no seu 
+em ambos os casos a pessoa que criou o repositório precisa dar permição para você ser um colaborador do código
+pra realmente fazer uma alteração do código
+
+OBS: os comandos realizados acima não mudarão o codigo do repositório
+
+quando voçê for tentar adicionar alguem como colaborador funcionara como seguir alguem no instagram ou seja
+ela precisa te 'seguir de volta' para poder realmente um colaborador*/
+
 
 
 
