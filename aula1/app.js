@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 100;
+let numeroLimite = 50;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -11,7 +11,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 100');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 50');
 }
 
 exibirMensagemInicial();
@@ -126,7 +126,38 @@ pra realmente fazer uma alteração do código
 OBS: os comandos realizados acima não mudarão o codigo do repositório
 
 quando voçê for tentar adicionar alguem como colaborador funcionara como seguir alguem no instagram ou seja
-ela precisa te 'seguir de volta' para poder realmente um colaborador*/
+ela precisa te 'seguir de volta' para poder realmente um colaborador
+
+após ser autorizado pode executar o comando:
+
+git push apelidoDoRepositório nomeDaBranch
+
+se a mudanças for feita por mais de um autor coloque o commit da seguinte maneira:
+
+git commit -m "comentario sobre a mudança.
+>
+>
+Co-authored-by: Nome <emailDoCabrom>
+Co-authred-by: Outro-Nome <outroemailDoCabromQueAjudou>
+
+
+se você quiser fazer uma contribuisão de um código precisa ser em um projeto de código aberto e para
+colaborar você precisa escolher uma das issues disponiveis no código
+para fazer um uma copia do repositório em sua conta (também conhecido como fork) para poder realizar a mudança para solucionar
+a issue
+
+por fim para enviar a solução você precisa abrir uma pull request que é enviar as mudanças feitas no 
+código para o dono do código e passara por uma revisão e talves ela pode ser aceita e caso ele for 
+aceito ele começara a fazer parte do código fonte. Também é bom saber as regras de contribuição do 
+repositório
+
+
+para realizar uma atualização do codigo para ver as alterações utilize o código:
+
+* git pull apelidoDoRepositorio nomeDaBranch
+
+
+*/
 
 
 
